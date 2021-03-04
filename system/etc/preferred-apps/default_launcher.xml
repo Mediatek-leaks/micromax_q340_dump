@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<preferred-activities>
+    <item name="com.mofirst.launcher/.ui.MainLauncher">
+        <filter>
+            <action name="android.intent.action.MAIN" />
+            <cat name="android.intent.category.HOME" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+    <item name="com.android.mms/.ui.ComposeMessageActivity">
+        <filter>
+            <action name="android.intent.action.SENDTO" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="sms" />
+        </filter>
+    </item>
+    <item name="com.android.mms/.ui.ComposeMessageActivity">
+        <filter>
+            <action name="android.intent.action.SENDTO" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="mms" />
+        </filter>
+    </item>
+    <item name="com.android.mms/.ui.ComposeMessageActivity">
+        <filter>
+            <action name="android.intent.action.SENDTO" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="mmsto" />
+        </filter>
+    </item>
+    <item name="com.android.mms/.ui.ComposeMessageActivity">
+        <filter>
+            <action name="android.intent.action.SENDTO" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="smsto" />
+        </filter>
+    </item>
+</preferred-activities>
